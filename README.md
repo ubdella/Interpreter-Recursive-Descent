@@ -22,8 +22,7 @@ This interpreter recognizes assignments and performs calculations on arbitrary m
 
 Production Rules:
 
-- `<calculation> → <expression> `
-- `"define" <identifier> "=" <expression>`
+- `<calculation> → <expression> | "define" <identifier> "=" <expression>`
 - `<identifier> → <alphanumericstring>`
 - `<alphanumericstring> → [<alphastring>{<digitstring>}])`
 - `<alphastring> → [<letter>]`
